@@ -31,12 +31,7 @@ var BOOLEAN_OPTION_ATTRIBUTES = {
 
 var angular;
 
-if (typeof module !== "undefined" && typeof module.exports === "object") {
-  angular = require("angular");
-  module.exports = MODULE_NAME;
-} else {
-  angular = window.angular;
-}
+angular = window.angular;
 
 var extend = angular.extend;
 
